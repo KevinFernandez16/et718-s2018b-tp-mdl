@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Players:</strong>
+  <%= @favorite.Players %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @favorite.Name %>
+</p>
+
+<p>
+  <strong>Club:</strong>
+  <%= @favorite.Club %>
+</p>
+
+<p>
+  <strong>Nationality:</strong>
+  <%= @favorite.Nationality %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @favorite.Position %>
+</p>
+
+<%= link_to 'Edit', edit_favorite_path(@favorite) %> |
+<%= link_to 'Back', favorites_path %>
